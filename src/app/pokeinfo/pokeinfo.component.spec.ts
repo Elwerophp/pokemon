@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { PokeinfoComponent } from './pokeinfo.component';
+import { PokeInfoComponent } from './pokeinfo.component';
 
-describe('PokeinfoComponent', () => {
-  let component: PokeinfoComponent;
-  let fixture: ComponentFixture<PokeinfoComponent>;
+describe('PokeInfoComponent', () => {
+  let component: PokeInfoComponent;
+  let fixture: ComponentFixture<PokeInfoComponent>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ PokeinfoComponent ],
+      declarations: [ PokeInfoComponent ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(PokeinfoComponent);
+    fixture = TestBed.createComponent(PokeInfoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
   imports: [IonicModule,CommonModule],
   styleUrls: ['pokeinfo.component.scss'],
 })
-export class PokemonDetailPage implements OnInit {
+export class PokeInfo implements OnInit {
   
   pokemon: any;
 
